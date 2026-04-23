@@ -1,4 +1,4 @@
-package com.example.smartclass
+package com.aaditya.smartclass
 
 import org.junit.Test
 

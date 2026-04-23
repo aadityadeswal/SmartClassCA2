@@ -9,19 +9,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartClassApp">
         <activity
-            android:name=".ViewTimetableActivity"
+            android:name="com.aaditya.smartclass.EditProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".SignupActivity"
+            android:name="com.aaditya.smartclass.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".DashboardActivity"
-            android:exported="false" />
-        <activity
-            android:name=".TimetableActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name="com.aaditya.smartclass.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,6 +23,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.aaditya.smartclass.FreeRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.aaditya.smartclass.ViewTimetableActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.aaditya.smartclass.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.aaditya.smartclass.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.aaditya.smartclass.TimetableActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.aaditya.smartclass.MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

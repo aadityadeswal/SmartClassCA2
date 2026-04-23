@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.smartclass"
+    namespace = "com.aaditya.smartclass"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.smartclass"
+        applicationId = "com.aaditya.smartclass"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

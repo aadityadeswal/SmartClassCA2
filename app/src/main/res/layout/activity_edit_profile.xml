@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:text="Edit Profile"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#111827"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+        <EditText
+            android:id="@+id/etName"
+            android:hint="Name"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@android:color/white"
+            android:padding="14dp"/>
+
+        <!-- SEMESTER -->
+
+        <EditText
+            android:id="@+id/etSemester"
+            android:hint="Semester (e.g. 7th)"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/white"
+            android:padding="14dp"/>
+
+        <!-- SECTION -->
+
+        <EditText
+            android:id="@+id/etSection"
+            android:hint="Section"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/white"
+            android:padding="14dp"/>
+
+        <!-- ROLL NO -->
+
+        <EditText
+            android:id="@+id/etRoll"
+            android:hint="Roll Number"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/white"
+            android:padding="14dp"/>
+
+        <!-- SAVE BUTTON -->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Save Changes"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#3F51B5"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</ScrollView>
