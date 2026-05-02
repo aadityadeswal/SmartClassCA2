@@ -1,13 +1,27 @@
-SmartClassCA2 is an Android application developed using Kotlin and XML in Android Studio. The project demonstrates practical implementation of Android development fundamentals, including UI design, activity management, and structured project architecture.
+📚 Smart Class Scheduler
 
-The application is built with a focus on clean code structure, simplicity, and maintainability while following standard Android development practices.
 
-Tech Stack
-	•	Kotlin
-	•	XML (Android Layouts)
-	•	Android SDK
-	•	Gradle
 
-Purpose
+Smart Class Scheduler is an Android application that streamlines academic planning through smart timetable generation and classroom optimization.
 
-This project was developed as part of academic coursework to showcase hands-on experience in building and managing a complete Android application using industry-standard tools.
+
+
+🚀 Features
+
+* Timetable Viewing
+* Smart Schedule Generation
+* Free Room Availability
+* Profile Management
+* Secure Authentication
+
+
+
+🧠 Tech
+
+Kotlin • XML • ViewBinding • Firebase
+
+
+
+👨‍💻 Author
+
+Aaditya Deswal
